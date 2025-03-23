@@ -1,0 +1,5 @@
+ToolSet: 17.0 (local)@B:\Visual Studio 2024
+Ninja: 1.12.1@C:\Users\Silver\AppData\Local\Programs\CLion\bin\ninja\win\x64\ninja.exe
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=C:/Users/Silver/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe

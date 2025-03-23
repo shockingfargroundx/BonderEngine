@@ -1,0 +1,6 @@
+C:/DEV/bonderEngine/cmake-build-debug-1/CMakeFiles/bonderEngine.dir
+C:/DEV/bonderEngine/cmake-build-debug-1/CMakeFiles/edit_cache.dir
+C:/DEV/bonderEngine/cmake-build-debug-1/CMakeFiles/rebuild_cache.dir
+C:/DEV/bonderEngine/cmake-build-debug-1/Bonder-Graphics/CMakeFiles/Bonder-Graphics.dir
+C:/DEV/bonderEngine/cmake-build-debug-1/Bonder-Graphics/CMakeFiles/edit_cache.dir
+C:/DEV/bonderEngine/cmake-build-debug-1/Bonder-Graphics/CMakeFiles/rebuild_cache.dir

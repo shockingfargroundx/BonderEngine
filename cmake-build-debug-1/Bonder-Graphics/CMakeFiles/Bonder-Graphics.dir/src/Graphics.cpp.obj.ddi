@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Bonder-Graphics\\CMakeFiles\\Bonder-Graphics.dir\\src\\Graphics.cpp.obj",
+            "outputs": [
+                "C:\\DEV\\bonderEngine\\cmake-build-debug-1\\vc140.pdb",
+                "Bonder-Graphics\\CMakeFiles\\Bonder-Graphics.dir\\src\\Graphics.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}
