@@ -12,6 +12,7 @@ namespace BonderGraphics {
     bool init();
     void Run();
     void cleanup();
+        void Render();
     private:
         GLFWwindow* window;
     };

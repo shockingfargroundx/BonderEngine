@@ -9,7 +9,9 @@ int main(void) {
         return -1;  // Exit if initialization fails
     }
 
-    graphics.Run();  // Run the render loop
+    //graphics.Run();  // Run the render loop (Not anymore. Use this later on...)
+
+    graphics.Render();  //Run Render loop
 
     return 0;
 

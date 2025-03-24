@@ -19,7 +19,7 @@ namespace BonderGraphics {
         }
 
         /* Create a windowed mode window and its OpenGL context */
-        window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+        window = glfwCreateWindow(640, 480, "Bonder", NULL, NULL);
         if (!window) {
             std::cerr << "Failed to create GLFW window!" << std::endl;
             glfwTerminate();
@@ -36,11 +36,19 @@ namespace BonderGraphics {
     void Graphics::Run() {
         if (!window) return;  // Ensure window is initialized
 
-        /* Main render loop */
+    }
+    void Graphics::Render() {
         while (!glfwWindowShouldClose(window)) {
             /* Render here */
+            glClearColor(0.1f, 0.2f, 0.3f, 1.0f);
             glClear(GL_COLOR_BUFFER_BIT);
-
+            //EDITOR: Use the verticies below on the triangle test
+            float verticies[] {
+                -0.5f, 0.5f, 0.0f,
+                -0.5f, 0.5f, 0.0f,
+                -0.5f, 0.5f, 0.0f};
+// Triangle should be an object later so move it to Bonder-Scene??
+            //OpenGL sucks ass
             /* Swap front and back buffers */
             glfwSwapBuffers(window);
 
@@ -48,6 +56,7 @@ namespace BonderGraphics {
             glfwPollEvents();
         }
     }
+
 
     void Graphics::cleanup() {
         if (window) {
