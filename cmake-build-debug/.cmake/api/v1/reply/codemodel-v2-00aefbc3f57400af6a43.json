@@ -1,0 +1,113 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Bonder-Graphics",
+					"jsonFile" : "directory-Bonder-Graphics-Debug-78ee30957144c0956caa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Bonder-Graphics",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "bonder-Core",
+					"jsonFile" : "directory-bonder-Core-Debug-7c26c6d6c9cb8946e9da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "bonder-Core",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "bonderEngine",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Bonder-Core::@e1806b264bbf48316159",
+					"jsonFile" : "target-Bonder-Core-Debug-f2aff270b65a17067441.json",
+					"name" : "Bonder-Core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Bonder-Graphics::@95dbef86bb2dff61bd14",
+					"jsonFile" : "target-Bonder-Graphics-Debug-40300aaeaf62ed8d131f.json",
+					"name" : "Bonder-Graphics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bonderEngine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bonderEngine-Debug-75dae2912600c1bdfc94.json",
+					"name" : "bonderEngine",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/DEV/bonderEngine/cmake-build-debug",
+		"source" : "C:/DEV/bonderEngine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

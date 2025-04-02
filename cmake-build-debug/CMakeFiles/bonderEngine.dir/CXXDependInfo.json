@@ -1,0 +1,23 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "C:/DEV/bonderEngine/cmake-build-debug",
+	"dir-cur-src" : "C:/DEV/bonderEngine",
+	"dir-top-bld" : "C:/DEV/bonderEngine/cmake-build-debug",
+	"dir-top-src" : "C:/DEV/bonderEngine",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\DEV\\bonderEngine\\vendor\\GLFW\\include",
+		"C:\\DEV\\bonderEngine\\Bonder-Graphics\\include",
+		"C:\\DEV\\bonderEngine\\bonder-Core\\headers"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/DEV/bonderEngine/cmake-build-debug/CMakeFiles/bonderEngine.dir"
+}

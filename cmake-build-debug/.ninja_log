@@ -1,0 +1,19 @@
+# ninja log v6
+4	135	7653095961849599	Bonder-Graphics/CMakeFiles/Bonder-Graphics.dir/src/Graphics.cpp.obj.ddi	fcb903720e6bf8da
+137	174	7653095963511542	Bonder-Graphics/CMakeFiles/Bonder-Graphics.dir/CXX.dd	3fa2ef7243390ead
+137	174	7653095963511542	C:/DEV/bonderEngine/cmake-build-debug/Bonder-Graphics/CMakeFiles/Bonder-Graphics.dir/CXXModules.json	3fa2ef7243390ead
+137	174	7653095963511542	Bonder-Graphics/CMakeFiles/Bonder-Graphics.dir/src/Graphics.cpp.obj.modmap	3fa2ef7243390ead
+175	900	7653095963561800	Bonder-Graphics/CMakeFiles/Bonder-Graphics.dir/src/Graphics.cpp.obj	787ee7b23ef4231
+900	944	7653095970809772	Bonder-Graphics/Bonder-Graphics.lib	b44c4d5ed52e8c0
+15	56	7653095972527098	bonder-Core/CMakeFiles/Bonder-Core.dir/src/input.cpp.obj.ddi	42357666376aa87d
+57	102	7653095973351210	bonder-Core/CMakeFiles/Bonder-Core.dir/CXX.dd	fa4052dfc7ff5544
+57	102	7653095973351210	C:/DEV/bonderEngine/cmake-build-debug/bonder-Core/CMakeFiles/Bonder-Core.dir/CXXModules.json	fa4052dfc7ff5544
+57	102	7653095973351210	bonder-Core/CMakeFiles/Bonder-Core.dir/src/input.cpp.obj.modmap	fa4052dfc7ff5544
+103	148	7653095973411093	bonder-Core/CMakeFiles/Bonder-Core.dir/src/input.cpp.obj	d7b5b2c81df491c8
+20	191	7653095972582077	CMakeFiles/bonderEngine.dir/src/main.cpp.obj.ddi	becac8710ba6cfbf
+149	202	7653095973866609	bonder-Core/Bonder-Core.lib	85df0bd6a1d8680e
+191	226	7653095974605740	CMakeFiles/bonderEngine.dir/CXX.dd	7fbc911eb54bed2d
+191	226	7653095974605740	C:/DEV/bonderEngine/cmake-build-debug/CMakeFiles/bonderEngine.dir/CXXModules.json	7fbc911eb54bed2d
+191	226	7653095974605740	CMakeFiles/bonderEngine.dir/src/main.cpp.obj.modmap	7fbc911eb54bed2d
+227	984	7653095974650897	CMakeFiles/bonderEngine.dir/src/main.cpp.obj	186c7a771606ddfd
+984	1316	7653095982217551	bonderEngine.exe	cb4b89e3731c06b7

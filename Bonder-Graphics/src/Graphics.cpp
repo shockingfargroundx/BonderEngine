@@ -4,31 +4,49 @@
 
 
 namespace BonderGraphics {
+    unsigned int VBO, VAO, shaderProgram;
+    const char* vertexShaderSource = R"(
+        #version 330 core
+        layout (location = 0) in vec3 aPos;  // position attribute
+
+        void main() {
+            gl_Position = vec4(aPos, 1.0);  // Pass position to clip space
+        }
+    )";
+    const char* fragmentShaderSource = R"(
+        #version 330 core
+        out vec4 FragColor;
+
+        void main() {
+            FragColor = vec4(1.0, 0.5, 0.2, 1.0);  // Orange-ish color
+        }
+    )";
 
     Graphics::Graphics() : window(nullptr) {}
 
     Graphics::~Graphics() {
         cleanup();
+        glfwDestroyWindow(window);
     }
 
     bool Graphics::init() {
-        /* Initialize the library */
+
         if (!glfwInit()) {
-            std::cerr << "Failed to initialize GLFW!" << std::endl;
+            LOG("Failed to initialize GLFW!")
             return false;
         }
 
         /* Create a windowed mode window and its OpenGL context */
         window = glfwCreateWindow(640, 480, "Bonder", NULL, NULL);
         if (!window) {
-            std::cerr << "Failed to create GLFW window!" << std::endl;
+            LOG("Failed to create GLFW window!")
             glfwTerminate();
             return false;
         }
 
         /* Make the window's context current */
         glfwMakeContextCurrent(window);
-        std::cout << "Window and OpenGL context initialized!" << std::endl;
+        LOG("Window and OpenGL context initialized!")
 
         return true;
     }
@@ -37,22 +55,26 @@ namespace BonderGraphics {
         if (!window) return;  // Ensure window is initialized
 
     }
+    void CompileShaders() {
+
+    }
+
+    void setupTriangle() {
+        float verticies[] {
+            -0.5f, 0.5f, 0.0f,
+            -0.5f, 0.5f, 0.0f,
+            -0.5f, 0.5f, 0.0f};
+
+    }
     void Graphics::Render() {
         while (!glfwWindowShouldClose(window)) {
-            /* Render here */
+
             glClearColor(0.1f, 0.2f, 0.3f, 1.0f);
             glClear(GL_COLOR_BUFFER_BIT);
-            //EDITOR: Use the verticies below on the triangle test
-            float verticies[] {
-                -0.5f, 0.5f, 0.0f,
-                -0.5f, 0.5f, 0.0f,
-                -0.5f, 0.5f, 0.0f};
-// Triangle should be an object later so move it to Bonder-Scene??
-            //OpenGL sucks ass
+
             /* Swap front and back buffers */
             glfwSwapBuffers(window);
 
-            /* Poll for and process events */
             glfwPollEvents();
         }
     }
@@ -64,7 +86,7 @@ namespace BonderGraphics {
             window = nullptr;
         }
         glfwTerminate();
-        std::cout << "GLFW terminated and resources cleaned up." << std::endl;
+        LOG("GLFW terminated and resources cleaned up.")
     }
 
 }

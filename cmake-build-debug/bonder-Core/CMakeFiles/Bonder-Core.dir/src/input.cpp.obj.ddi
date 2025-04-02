@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "bonder-Core\\CMakeFiles\\Bonder-Core.dir\\src\\input.cpp.obj",
+            "outputs": [
+                "C:\\DEV\\bonderEngine\\cmake-build-debug\\vc140.pdb",
+                "bonder-Core\\CMakeFiles\\Bonder-Core.dir\\src\\input.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}
