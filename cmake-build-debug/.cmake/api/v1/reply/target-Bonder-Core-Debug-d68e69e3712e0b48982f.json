@@ -1,18 +1,9 @@
 {
-	"archive" : 
-	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "/machine:x64",
-				"role" : "flags"
-			}
-		]
-	},
+	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "Bonder-Graphics/Bonder-Graphics.lib"
+			"path" : "bonder-Core/libBonder-Core.a"
 		}
 	],
 	"backtrace" : 1,
@@ -26,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"Bonder-Graphics/CMakeLists.txt",
+			"bonder-Core/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -63,7 +54,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi"
+					"fragment" : "-g -std=gnu++20 -fdiagnostics-color=always"
 				}
 			],
 			"includes" : 
@@ -74,7 +65,7 @@
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/DEV/bonderEngine/Bonder-Graphics/include"
+					"path" : "C:/DEV/bonderEngine/bonder-Core/headers"
 				}
 			],
 			"language" : "CXX",
@@ -92,13 +83,13 @@
 			]
 		}
 	],
-	"id" : "Bonder-Graphics::@95dbef86bb2dff61bd14",
-	"name" : "Bonder-Graphics",
-	"nameOnDisk" : "Bonder-Graphics.lib",
+	"id" : "Bonder-Core::@e1806b264bbf48316159",
+	"name" : "Bonder-Core",
+	"nameOnDisk" : "libBonder-Core.a",
 	"paths" : 
 	{
-		"build" : "Bonder-Graphics",
-		"source" : "Bonder-Graphics"
+		"build" : "bonder-Core",
+		"source" : "bonder-Core"
 	},
 	"sourceGroups" : 
 	[
@@ -115,7 +106,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Bonder-Graphics/src/Graphics.cpp",
+			"path" : "bonder-Core/src/input.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

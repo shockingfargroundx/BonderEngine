@@ -1,4 +1,4 @@
-ToolSet: 17.0 (local)@B:\Visual Studio 2024
+ToolSet: 11.0 w64 (local)@C:\Users\Silver\AppData\Local\Programs\CLion\bin\mingw
 Ninja: 1.12.1@C:\Users\Silver\AppData\Local\Programs\CLion\bin\ninja\win\x64\ninja.exe
 Options: 
 

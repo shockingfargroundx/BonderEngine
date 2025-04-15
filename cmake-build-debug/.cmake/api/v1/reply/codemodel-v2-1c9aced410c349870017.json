@@ -78,21 +78,21 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "Bonder-Core::@e1806b264bbf48316159",
-					"jsonFile" : "target-Bonder-Core-Debug-f2aff270b65a17067441.json",
+					"jsonFile" : "target-Bonder-Core-Debug-d68e69e3712e0b48982f.json",
 					"name" : "Bonder-Core",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "Bonder-Graphics::@95dbef86bb2dff61bd14",
-					"jsonFile" : "target-Bonder-Graphics-Debug-40300aaeaf62ed8d131f.json",
+					"jsonFile" : "target-Bonder-Graphics-Debug-fe91cd7cebd2cfa76892.json",
 					"name" : "Bonder-Graphics",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "bonderEngine::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-bonderEngine-Debug-75dae2912600c1bdfc94.json",
+					"jsonFile" : "target-bonderEngine-Debug-2dd8d8530b7aee5c6b1a.json",
 					"name" : "bonderEngine",
 					"projectIndex" : 0
 				}

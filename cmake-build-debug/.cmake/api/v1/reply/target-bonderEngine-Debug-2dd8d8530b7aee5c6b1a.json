@@ -52,7 +52,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi"
+					"fragment" : "-g -std=gnu++20 -fdiagnostics-color=always"
 				}
 			],
 			"includes" : 
@@ -102,11 +102,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"fragment" : "",
 				"role" : "flags"
 			},
 			{
@@ -116,31 +116,51 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "opengl32.lib",
+				"fragment" : "-lopengl32",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "winmm.lib",
+				"fragment" : "-lwinmm",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "gdi32.lib",
+				"fragment" : "-lgdi32",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "Bonder-Graphics\\Bonder-Graphics.lib",
+				"fragment" : "Bonder-Graphics\\libBonder-Graphics.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "bonder-Core\\Bonder-Core.lib",
+				"fragment" : "bonder-Core\\libBonder-Core.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"backtrace" : 2,
+				"fragment" : "C:\\DEV\\bonderEngine\\vendor\\GLFW\\lib\\glfw3.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lopengl32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lwinmm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgdi32",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
 				"role" : "libraries"
 			}
 		],
