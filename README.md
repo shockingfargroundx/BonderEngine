@@ -75,15 +75,14 @@ Don't feature hate speech in your code.
 <p>Parenthesis:</p>
 
 ```cpp
-void main()
-{
-    if(stuff)
-    {
+void main() {
+    if(stuff) {
+
     }
 }
 ```
 
-<p>CamelCase:</p>
+<p>camelCase:</p>
 
 ```cpp
 int variable;
@@ -98,11 +97,11 @@ void MyStruct::myMethod();
 
 <p>Opening the Solution:</p> 
 
-<img src="https://raw.githubusercontent.com/meemknight/photos/master/llge1.gif" width="350">
+<img src="enter gif here in raw format" width="350">
 
 Or
 
-<img src="https://raw.githubusercontent.com/meemknight/photos/master/llge2.gif" width="500">
+<img src="enter gif here in raw format" width="500">
 
 Running the engine
 
