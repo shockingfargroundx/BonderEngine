@@ -4,6 +4,8 @@ project(bonderEngine)
 set(CMAKE_CXX_STANDARD 20)
 set(GLFW_DIR "${CMAKE_SOURCE_DIR}/vendor/GLFW")
 
+file(GLOB_RECURSE MY_SOURCES CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
+
 include_directories("${GLFW_DIR}/include")
 
 # Add subdirectories for modules
