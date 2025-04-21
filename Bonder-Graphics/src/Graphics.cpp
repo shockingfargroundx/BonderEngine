@@ -1,4 +1,4 @@
-﻿#include "BonderGraphics/Graphics.h"
+﻿#include "BonderGraphics"
 #include <iostream>
 #define LOG(x) std::cout << x << std::endl;
 
