@@ -23,6 +23,8 @@ extensions = ['sphinx.ext.duration',
      ]
 
 
+
+
 templates_path = ['_templates']
 exclude_patterns = []
 

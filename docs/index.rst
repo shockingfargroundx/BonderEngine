@@ -3,6 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+   
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'restructuredtext',
+    '.md': 'markdown',
+}
+
 Bonder Engine documentation
 ===========================
 
@@ -16,17 +24,9 @@ documentation for details.
 
    This project is under active development.
 
-source_suffix = {
-    '.rst': 'restructuredtext',
-    '.txt': 'restructuredtext',
-    '.md': 'markdown',
-}
+
 
 Contents
 --------
 .. toctree::
   README
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
