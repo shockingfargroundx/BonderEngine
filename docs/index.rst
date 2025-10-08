@@ -11,8 +11,6 @@ Add your content using ``reStructuredText`` syntax. See the
 documentation for details.
 
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
 
 .. note::
 
@@ -30,7 +28,7 @@ Contents
 --------
 
 .. toctree::
-
+   README.md
    usage
    api
 
