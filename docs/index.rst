@@ -26,9 +26,9 @@ source_suffix = {
 
 Contents
 --------
-
+:role: 'README.md'
 .. toctree::
-   README.md
+  
    usage
    api
 
