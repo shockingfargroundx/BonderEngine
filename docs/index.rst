@@ -28,10 +28,6 @@ Contents
 --------
 .. toctree::
   README
-  README.md
-   usage
-   api
-
 
 .. toctree::
    :maxdepth: 2
