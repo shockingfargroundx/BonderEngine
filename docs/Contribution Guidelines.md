@@ -1,11 +1,3 @@
-# BonderEngine
-
- A new game engine that will be replaced with Cassie someday
-
-  
-
----
-
 # How to contribute (Contribution Guidelines)
 
 <p>First there are some basic rules that you have to follow but in a nutshell we will try to be disorganized in an organized manner.</p>
