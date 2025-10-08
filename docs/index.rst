@@ -17,4 +17,4 @@ documentation for details.
 Contents
 --------
 .. toctree::
-   README
+   Contribution Guidelines
