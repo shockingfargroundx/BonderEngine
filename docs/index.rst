@@ -16,6 +16,5 @@ documentation for details.
 
 Contents
 --------
-..toctree::
+.. toctree::
    README
-
