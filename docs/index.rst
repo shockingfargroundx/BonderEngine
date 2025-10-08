@@ -16,6 +16,4 @@ documentation for details.
 README.md
 
 
-Contents
---------
-.. toctree::
+#.. toctree::
