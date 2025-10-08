@@ -22,7 +22,11 @@ extensions = ['sphinx.ext.duration',
     'myst_parser',
      ]
 
-
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'restructuredtext',
+    '.md': 'markdown',
+}
 
 
 templates_path = ['_templates']
