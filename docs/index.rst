@@ -16,19 +16,16 @@ documentation for details.
 
    This project is under active development.
 
-
 source_suffix = {
     '.rst': 'restructuredtext',
     '.txt': 'restructuredtext',
     '.md': 'markdown',
 }
 
-
 Contents
 --------
 .. toctree::
   README
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
