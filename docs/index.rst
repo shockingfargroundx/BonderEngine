@@ -13,5 +13,9 @@ documentation for details.
 .. note::
 
    This project is under active development.
-README.md
+
+Contents
+--------
+..toctree::
+   README
 
