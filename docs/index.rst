@@ -15,5 +15,3 @@ documentation for details.
    This project is under active development.
 README.md
 
-
-#.. toctree::
