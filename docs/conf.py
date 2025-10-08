@@ -18,7 +18,9 @@ extensions = ['sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',]
+    'sphinx.ext.intersphinx',
+    'myst_parser',
+     ]
 
 
 templates_path = ['_templates']
