@@ -13,7 +13,7 @@ documentation for details.
 .. note::
 
    This project is under active development.
-README
+README.md
 
 
 Contents
