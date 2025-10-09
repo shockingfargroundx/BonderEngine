@@ -1,5 +1,5 @@
 # BonderEngine
- A new game engine that will be replaced with Cassie someday
+ Check out our new Wiki --> https://bonderengine.readthedocs.io/en/latest/
 
 ---
 # How to contribute (Contribution Guidelines)
