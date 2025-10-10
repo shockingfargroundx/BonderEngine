@@ -133,7 +133,7 @@ Don't feature hate speech in your code.
   
   
 
-## Style Guidelines
+# Style Guidelines
 
 ### Parenthesis
 
