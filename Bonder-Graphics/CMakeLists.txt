@@ -11,6 +11,7 @@ target_include_directories(Bonder-Graphics PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/h
 #add_subdirectory("${CMAKE_SOURCE_DIR}/vendor/glfw-3.3.2")
 
 add_executable (${PROJECT_NAME} ${MY_SOURCES})
+# Make sure to call ModuleCommon after adding the executable.
 include(../ModuleCommon.cmake)
 target_link_libraries(${PROJECT_NAME}
         glfw
