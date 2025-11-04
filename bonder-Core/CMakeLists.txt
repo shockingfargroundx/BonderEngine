@@ -1,6 +1,6 @@
-﻿add_library(Bonder-Core src/input.cpp)
-
+﻿file(GLOB_RECURSE MY_SOURCES CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
+add_library(Bonder-Core ${MY_SOURCES})
 
 target_include_directories(Bonder-Core PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/headers")
-
-target_link_libraries(Bonder-Core)
+add_executable(bonderTestingCore ${MY_SOURCES})
+target_link_libraries(bonderTestingCore Bonder-Core)

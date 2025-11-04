@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include "BonderGraphics/Graphics.h"
+#include <Graphics.h>
 #define LOG(x) std::cout << x << std::endl;
 
 int main(void) {

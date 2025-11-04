@@ -2,19 +2,20 @@
 project(bonderEngine)
 
 set(CMAKE_CXX_STANDARD 20)
-set(GLFW_DIR "${CMAKE_SOURCE_DIR}/vendor/GLFW")
 
 file(GLOB_RECURSE MY_SOURCES CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
-
-include_directories("${GLFW_DIR}/include")
 
 # Add subdirectories for modules
 add_subdirectory(Bonder-Graphics)
 add_subdirectory(Bonder-Core)
 
+# Add subdir for graphics.
+add_subdirectory("${CMAKE_SOURCE_DIR}/vendor/glfw-3.3.2")
+target_include_directories(Bonder-Graphics PRIVATE vendor/glfw-3.3.2/include)
+
 add_executable(${PROJECT_NAME} src/main.cpp)
 target_link_libraries(${PROJECT_NAME}
-"${GLFW_DIR}/lib/glfw3.lib"
+ glfw
  opengl32.lib
  winmm.lib
  gdi32.lib

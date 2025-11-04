@@ -1,12 +1,20 @@
-﻿add_library(Bonder-Graphics src/Graphics.cpp)
-# TODO: change SRC/graphics to file_recourse,   
-set(GLFW_DIR "${CMAKE_SOURCE_DIR}/vendor/GLFW")
-target_include_directories(Bonder-Graphics PUBLIC "${GLFW_DIR}/include" "${CMAKE_CURRENT_SOURCE_DIR}/include")
+﻿cmake_minimum_required(VERSION 3.30)
+project("TestingGraphics")
 
+file(GLOB_RECURSE MY_SOURCES CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
 
+#file(GLOB_RECURSE MY_HEADERS CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/headers/*.h")
 
-# add_executable (bonderGraphicsTest SRC/testGraphics.cpp - link to mysources) 
-#TODO: fix this code above to make it actively do something. Also, add Bonder-GraphicsTest in link libs FIRST
+add_library(Bonder-Graphics ${MY_SOURCES})
+target_include_directories(Bonder-Graphics PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/headers/" PRIVATE vendor/glfw-3.3.2/include)
 
-target_link_libraries(Bonder-Graphics "${GLFW_DIR}/lib/glfw3.lib" opengl32.lib winmm.lib gdi32.lib)
+#add_subdirectory("${CMAKE_SOURCE_DIR}/vendor/glfw-3.3.2")
 
+add_executable (${PROJECT_NAME} ${MY_SOURCES})
+# Make sure to call ModuleCommon after adding the executable.
+include(../ModuleCommon.cmake)
+target_link_libraries(${PROJECT_NAME}
+        glfw
+        opengl32.lib
+        winmm.lib
+        gdi32.lib)
