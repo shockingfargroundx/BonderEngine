@@ -1,7 +1,6 @@
-﻿#include "Graphics.h"
-#include <iostream>
-
+﻿#include <iostream>
 #include "GLFW/glfw3.h"
+#include <Graphics.h>
 #define LOG(x) std::cout << x << std::endl;
 
 

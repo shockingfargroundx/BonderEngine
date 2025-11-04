@@ -1,4 +1,4 @@
-﻿#include <GLFW/glfw3.h> //TODO: make this shit work.
+﻿#include <GLFW/glfw3.h>
 #ifndef GRAPHICS_H
 #define GRAPHICS_H
 
