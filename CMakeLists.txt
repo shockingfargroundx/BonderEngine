@@ -7,7 +7,7 @@ file(GLOB_RECURSE MY_SOURCES CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/src/
 
 # Add subdirectories for modules
 add_subdirectory(Bonder-Graphics)
-add_subdirectory(Bonder-Core)
+#add_subdirectory(Bonder-Core)
 
 # Add subdir for graphics.
 add_subdirectory("${CMAKE_SOURCE_DIR}/vendor/glfw-3.3.2")
@@ -20,4 +20,4 @@ target_link_libraries(${PROJECT_NAME}
  winmm.lib
  gdi32.lib
  Bonder-Graphics
- Bonder-Core)
+ )
